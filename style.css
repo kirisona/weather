@@ -1,0 +1,166 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+   
+    
+}
+
+i {
+    margin: 0;
+}
+
+h1 {
+    position: relative;
+    left: 225px; 
+    font-size: 25px;
+}
+
+.container {
+    display: block;
+    box-sizing: border-box;
+    width: 1468px;
+    height: 963px;
+    background-color: #3399cc;
+    border: 20px solid #2b81ac;
+    margin: 0 auto;  
+}
+
+.block {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 620px;
+    width: 980px;
+    border: 5px solid #fff;
+    font-size: 0;
+    
+}
+
+ul {list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+span p, span i {
+    opacity: 0.7;
+}
+
+span {
+    padding-top: 3%;
+}
+
+span p {
+    padding-top: 25px;
+}
+
+.block .city {
+    display: inline-block;
+    flex-basis: 25%;
+    width: 25%;
+    height: 25%;
+    font-size: 23px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    margin: 0 auto;
+}
+
+.container .city: {
+    opacity: 1;
+}
+
+.block .city:first-of-type {
+    width: 50%;
+    background-color: #3399cc;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .city:last-of-type {
+    width: 100%;
+    background-color: #666699;
+}
+
+.block .paris {
+    background-color: #33cccc;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .belgrade {
+    background-color: #996699;
+    border-bottom: 5px solid #fff;
+}
+
+.block .moscow {
+    background-color: #c24747;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .aviv {
+    background-color: #e2674a;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .cair {
+    background-color: #ffcc66;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .york {
+    background-color: #99cc99;
+    border-bottom: 5px solid #fff;
+}
+
+.block .delhi {
+    background-color: #669999;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.block .city:nth-of-type(9) {
+    width: 50%;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    background-color: #cc6699;
+}
+
+.block .tokyo {
+    background-color: #339966;
+    border-bottom: 5px solid #fff;
+}
+
+
+
+footer {
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+    left: 225px; 
+}
+
+ul:hover > li {
+    opacity: 0.7;
+}
+
+ul > li:hover {
+    opacity: 1;
+}
